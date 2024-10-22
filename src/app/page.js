@@ -1,9 +1,8 @@
-import React from 'react'
-import style from './page.module.css';
+import React from 'react';
 
 const Page = () => {
   return (
-    <>
+    <div className='sd-inputs'>
       <div className='ssd-input'>
         <input type="text" placeholder='Name' />
         <input type="text" placeholder='Roll No.' />
@@ -12,10 +11,7 @@ const Page = () => {
         <input type="text" placeholder='Password' />
         <button>Send</button>
       </div>
-      <div>
-        <input type="text" placeholder='Roll No.'/>
-      </div>
-    </>
+    </div>
   )
 }
 
